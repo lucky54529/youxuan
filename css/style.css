@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+html {
+  font-size: 62.5%;
+}
+
+body {
+
+
+    background-size: cover;
+    color: #333;
+    font-size: 1.4rem;
+    font-family: "Helvetica", "Lucida Grande", "Microsoft JhengHei", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+
+
+.wrapper{
+
+  width: 100%;
+}
+
+.header{
+
+  width: 100%;
+  padding: 28px 0 10px;
+  background: url(../images/bg-header.gif)repeat-x;
+  box-shadow: 0 0 10px 1px #e3e3e3;
+}
+
+
+.logo{
+
+  width: 225px;
+  height: 56px;
+  background: url('../images/logo.png')no-repeat;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 10px;
+  margin: 0 auto;
+}
+
+.logo a{
+
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.global-nav{
+
+  margin-top: 15px;
+  text-align: center;
+}
+
+.global-nav .nav-item{
+
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.global-nav .nav-item a{
+
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1.3rem;
+}
+
+
+.slideshow{
+
+  overflow: hidden;
+  position: relative;
+  min-width: 960px;
+  height: 465px;
+}
+
+.slideshow img{
+
+  position: absolute;
+  width: 100%;
+  display: none;
+
+}
+
+
+
+
