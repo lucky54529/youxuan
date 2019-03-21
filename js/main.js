@@ -13,7 +13,7 @@ $(function () {
         $slides.eq(currentIndex).fadeIn();
 
         // 每7500毫秒就執行showNextSlide函數
-        setInterval(showNextSlide, 2500);
+        setInterval(showNextSlide, 5000);
 
           // 顯示下一張Slide的函數
         function showNextSlide () {
